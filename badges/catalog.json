@@ -1,0 +1,1113 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-07-26T02:52:32.036Z",
+  "tippingPercentages": [
+    10,
+    15,
+    20
+  ],
+  "kioskMetadata": {
+    "kioskId": "kiosk101",
+    "locationId": "location101"
+  },
+  "colors": {
+    "primaryColor": "#ff5638",
+    "secondaryColor": "#a80000",
+    "primaryBackgroundColor": "#FFFFFF",
+    "unselectedNavColor": "#707070",
+    "primaryNavBackgroundColor": "#E6E6E6",
+    "primaryButtonLabelColor": "#FFFFFF",
+    "primaryTextColor": "#000000"
+  },
+  "enableDiningOptions": false,
+  "taxPercentage": 0.6,
+  "businessProfile": {
+    "name": "Duupr Kiosk Express",
+    "description": "Freshly prepared delicious burgers, sides and craft beverages served instantly.",
+    "logo": {
+      "square": "logosquare",
+      "rect": "logorect"
+    },
+    "address": {
+      "street": "100 Main Street",
+      "city": "Methuen",
+      "state": "Massachusetts",
+      "zip": "01844",
+      "country": "United States"
+    },
+    "hoursType": "custom",
+    "hoursOfOperation": {
+      "days": [
+        {
+          "day": "Monday",
+          "open": "2026-01-01T09:00:00Z",
+          "close": "2026-01-01T21:00:00Z"
+        },
+        {
+          "day": "Tuesday",
+          "open": "2026-01-01T09:00:00Z",
+          "close": "2026-01-01T21:00:00Z"
+        },
+        {
+          "day": "Wednesday",
+          "open": "2026-01-01T09:00:00Z",
+          "close": "2026-01-01T21:00:00Z"
+        },
+        {
+          "day": "Thursday",
+          "open": "2026-01-01T09:00:00Z",
+          "close": "2026-01-01T21:00:00Z"
+        },
+        {
+          "day": "Friday",
+          "open": "2026-01-01T09:00:00Z",
+          "close": "2026-01-01T21:00:00Z"
+        },
+        {
+          "day": "Saturday",
+          "open": "2026-01-01T09:00:00Z",
+          "close": "2026-01-01T21:00:00Z"
+        },
+        {
+          "day": "Sunday",
+          "open": "2026-01-01T09:00:00Z",
+          "close": "2026-01-01T21:00:00Z"
+        }
+      ]
+    }
+  },
+  "ingredients": {
+    "ing_ketchup": {
+      "id": "ing_ketchup",
+      "name": "Ketchup",
+      "description": "Classic tomato ketchup",
+      "image": "ketchup",
+      "nutritionalFacts": {
+        "calories": 15,
+        "protein": 0,
+        "carbs": 4,
+        "fat": 0,
+        "satFat": 0,
+        "description": "Ketchup nutrition details.",
+        "allergens": ""
+      }
+    },
+    "ing_mustard": {
+      "id": "ing_mustard",
+      "name": "Yellow Mustard",
+      "description": "Tangy yellow mustard",
+      "image": "mustard",
+      "nutritionalFacts": {
+        "calories": 5,
+        "protein": 0,
+        "carbs": 1,
+        "fat": 0,
+        "satFat": 0,
+        "description": "Yellow Mustard nutrition details.",
+        "allergens": ""
+      }
+    },
+    "ing_lettuce": {
+      "id": "ing_lettuce",
+      "name": "Lettuce",
+      "description": "Crisp iceberg lettuce leaf",
+      "image": "lettuce",
+      "nutritionalFacts": {
+        "calories": 5,
+        "protein": 0,
+        "carbs": 1,
+        "fat": 0,
+        "satFat": 0,
+        "description": "Lettuce nutrition details.",
+        "allergens": ""
+      }
+    },
+    "ing_tomato": {
+      "id": "ing_tomato",
+      "name": "Tomato",
+      "description": "Fresh sliced tomato",
+      "image": "tomato",
+      "nutritionalFacts": {
+        "calories": 10,
+        "protein": 0,
+        "carbs": 2,
+        "fat": 0,
+        "satFat": 0,
+        "description": "Tomato nutrition details.",
+        "allergens": ""
+      }
+    },
+    "ing_green_pepper": {
+      "id": "ing_green_pepper",
+      "name": "Green Peppers",
+      "description": "Fresh sliced bell peppers",
+      "image": "pepper",
+      "nutritionalFacts": {
+        "calories": 5,
+        "protein": 0,
+        "carbs": 1,
+        "fat": 0,
+        "satFat": 0,
+        "description": "Bell pepper addition.",
+        "allergens": ""
+      }
+    },
+    "ing_black_olive": {
+      "id": "ing_black_olive",
+      "name": "Black Olives",
+      "description": "Sliced black olives",
+      "image": "blackolive",
+      "nutritionalFacts": {
+        "calories": 15,
+        "protein": 0,
+        "carbs": 1,
+        "fat": 1,
+        "satFat": 0,
+        "description": "Black Olives nutrition details.",
+        "allergens": ""
+      }
+    },
+    "ing_podj2up7y": {
+      "name": "Mayo",
+      "description": "",
+      "image": "",
+      "nutritionalFacts": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "satFat": 0,
+        "description": "Mayo nutrition details.",
+        "allergens": ""
+      },
+      "id": "ing_podj2up7y"
+    }
+  },
+  "modifierGroups": {
+    "mg_burger_sizes": {
+      "id": "mg_burger_sizes",
+      "name": "Burger Size Selection",
+      "description": "Select your burger size",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_size_s",
+          "name": "Small",
+          "label": "Small Size",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_size_m",
+          "name": "Medium",
+          "label": "Medium Size",
+          "priceAdjustment": 0.5,
+          "isDefault": false
+        },
+        {
+          "id": "opt_size_l",
+          "name": "Large",
+          "label": "Large Size",
+          "priceAdjustment": 1,
+          "isDefault": false
+        }
+      ],
+      "label": "Size"
+    },
+    "mg_combo_drinks": {
+      "id": "mg_combo_drinks",
+      "name": "Select Drink option",
+      "description": "Choose drink option",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_drink_coke",
+          "name": "Coca Cola",
+          "label": "Coke",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "linkedProductId": "ent_prod_6zxlur1h5"
+        },
+        {
+          "id": "opt_drink_fanta",
+          "name": "Orange Fanta",
+          "label": "Fanta",
+          "priceAdjustment": 0,
+          "isDefault": false,
+          "linkedProductId": "ent_prod_xzwgas1t4"
+        },
+        {
+          "id": "opt_jwfkk69sw",
+          "name": "Lemonade",
+          "label": "Lemonade",
+          "priceAdjustment": 0,
+          "isDefault": false,
+          "linkedProductId": "ent_prod_v70dk2owi"
+        },
+        {
+          "id": "opt_0cjp8g3j7",
+          "name": "Fanta Grape",
+          "label": "Fanta Grape",
+          "priceAdjustment": 0,
+          "isDefault": false,
+          "linkedProductId": "ent_prod_z9d6n7j7r"
+        },
+        {
+          "id": "opt_st6kacfok",
+          "name": "Mountain Dew",
+          "label": "Mountain Dew",
+          "priceAdjustment": 0,
+          "isDefault": false,
+          "linkedProductId": "ent_prod_dd5xp060z"
+        }
+      ],
+      "label": "Drinks"
+    },
+    "mg_amount_choices": {
+      "id": "mg_amount_choices",
+      "name": "Amount Options",
+      "description": "Light, Normal, Extra options",
+      "type": "singleSelect",
+      "displayLocation": "customizer",
+      "isRequired": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_amount_light",
+          "name": "Light",
+          "label": "Light",
+          "priceAdjustment": 0,
+          "isDefault": false
+        },
+        {
+          "id": "opt_amount_normal",
+          "name": "Normal",
+          "label": "Normal",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_amount_extra",
+          "name": "Extra",
+          "label": "Extra",
+          "priceAdjustment": 0.25,
+          "isDefault": false
+        }
+      ],
+      "label": "Amount Options"
+    },
+    "mg_condiments_checklist": {
+      "id": "mg_condiments_checklist",
+      "name": "Select Condiments",
+      "description": "Select condiments and custom amount levels",
+      "type": "toggleList",
+      "displayLocation": "customizer",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 10,
+      "options": [
+        {
+          "id": "opt_cond_mustard",
+          "name": "Mustard",
+          "label": "Mustard",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "linkedIngredientId": "ing_mustard",
+          "nestedGroupId": "mg_amount_choices"
+        },
+        {
+          "id": "opt_ahhgk98ax",
+          "name": "Ketchup",
+          "label": "Ketchup",
+          "priceAdjustment": 0,
+          "isDefault": false,
+          "linkedIngredientId": "ing_ketchup",
+          "nestedGroupId": "mg_2javuhzc4"
+        },
+        {
+          "id": "opt_ze2mthn7g",
+          "name": "Mayo",
+          "label": "Mayo",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "linkedIngredientId": "ing_podj2up7y"
+        }
+      ],
+      "label": "Condiments"
+    },
+    "mg_vegetables_checklist": {
+      "id": "mg_vegetables_checklist",
+      "name": "Select Vegetables",
+      "description": "Lettuce, tomato, peppers, black olives selection",
+      "type": "toggleList",
+      "displayLocation": "customizer",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 10,
+      "options": [
+        {
+          "id": "opt_veg_lettuce",
+          "name": "Lettuce",
+          "label": "Iceberg Lettuce",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "linkedIngredientId": "ing_lettuce"
+        },
+        {
+          "id": "opt_veg_tomato",
+          "name": "Tomato",
+          "label": "Sliced Tomato",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "linkedIngredientId": "ing_tomato"
+        },
+        {
+          "id": "opt_veg_olives",
+          "name": "Black Olives",
+          "label": "Black Olives",
+          "priceAdjustment": 0.5,
+          "isDefault": false,
+          "linkedIngredientId": "ing_black_olive"
+        },
+        {
+          "id": "opt_izgnk24oi",
+          "name": "Pickles",
+          "label": "Pickles",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_dzb1k4f80",
+          "name": "Onions",
+          "label": "Onions",
+          "priceAdjustment": 0,
+          "isDefault": false,
+          "nestedGroupId": "mg_amount_choices"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    "mg_e4qq87t41": {
+      "name": "Size (Drink)",
+      "description": "",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_a94ksc16z",
+          "name": "Small",
+          "label": "Small",
+          "priceAdjustment": 1,
+          "isDefault": true
+        },
+        {
+          "id": "opt_1pbvw8xvt",
+          "name": "Medium",
+          "label": "Medium",
+          "priceAdjustment": 2,
+          "isDefault": false
+        },
+        {
+          "id": "opt_w8erpvxzl",
+          "name": "Large",
+          "label": "Large",
+          "priceAdjustment": 3,
+          "isDefault": false
+        }
+      ],
+      "id": "mg_e4qq87t41",
+      "label": "Size (Drink)"
+    },
+    "mg_2javuhzc4": {
+      "name": "Ketchup",
+      "description": "",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_rjhv8by93",
+          "name": "Light",
+          "label": "Light",
+          "priceAdjustment": 0,
+          "isDefault": false
+        },
+        {
+          "id": "opt_srxbftdkm",
+          "name": "Normal",
+          "label": "Normal",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_y9f7xbuat",
+          "name": "Extra",
+          "label": "Extra",
+          "priceAdjustment": 0,
+          "isDefault": false
+        }
+      ],
+      "id": "mg_2javuhzc4",
+      "label": "Ketchup"
+    },
+    "mg_o7ifi3cs2": {
+      "name": "Burger Cooking Options",
+      "label": "Meat Cooked Level",
+      "description": "",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_9d80rywbw",
+          "name": "Rare",
+          "label": "Rare",
+          "priceAdjustment": 0,
+          "isDefault": false
+        },
+        {
+          "id": "opt_xwlt22zta",
+          "name": "Medium-Rare",
+          "label": "Medium-Rare",
+          "priceAdjustment": 0,
+          "isDefault": false
+        },
+        {
+          "id": "opt_zhrvmc88a",
+          "name": "Medium-Well",
+          "label": "Medium-Well",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_cn8pybwk2",
+          "name": "Well-Done",
+          "label": "Well-Done",
+          "priceAdjustment": 0,
+          "isDefault": false
+        }
+      ],
+      "id": "mg_o7ifi3cs2"
+    }
+  },
+  "data": [
+    {
+      "icon": "c00002",
+      "entity": {
+        "id": "cat_ent_1",
+        "tag": "burgers",
+        "order": 1,
+        "name": "Burgers",
+        "description": "Juicy craft burgers made with 100% prime beef patties.",
+        "image": "",
+        "thumbnail": "",
+        "isActive": true,
+        "createdAt": "2026-07-26T02:31:48.903Z",
+        "updatedAt": "2026-07-26T02:52:32.036Z"
+      },
+      "items": [
+        {
+          "entity": {
+            "id": "ent_prod_1",
+            "order": 1,
+            "name": "Double Cheeseburger",
+            "label": "Double Cheeseburger",
+            "description": "Two flame-grilled beef patties with melted cheddar cheese, pickles, and signature sauce.",
+            "image": "burger1",
+            "thumbnail": "burgertb1",
+            "isActive": true,
+            "createdAt": "2026-07-17T14:20:12.900Z",
+            "updatedAt": "2026-07-26T02:52:32.036Z",
+            "tag": "ad1",
+            "price": 8.99,
+            "nutritionalFacts": {
+              "calories": 680,
+              "protein": 42,
+              "carbs": 38,
+              "fat": 40,
+              "satFat": 18,
+              "description": "Beef patty burger with cheese",
+              "allergens": "Gluten, Dairy"
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_burger_sizes",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_combo_drinks",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_vegetables_checklist",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_condiments_checklist",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_o7ifi3cs2",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            }
+          ],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_wu4bsr26b",
+            "order": 1,
+            "name": "Cheeseburger",
+            "label": "Cheeseburger",
+            "description": "Succulent Cheeseburger with 100% Premium Beef Patty",
+            "image": "burger2",
+            "thumbnail": "burgertb2",
+            "isActive": true,
+            "createdAt": "2026-07-26T02:43:17.723Z",
+            "updatedAt": "2026-07-26T02:52:32.036Z",
+            "tag": "ad2",
+            "price": 12.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_combo_drinks",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_condiments_checklist",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_o7ifi3cs2",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_vegetables_checklist",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            }
+          ],
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "icon": "c00001",
+      "entity": {
+        "id": "cat_ent_2",
+        "tag": "drinks",
+        "order": 2,
+        "name": "Drinks",
+        "description": "Crispy golden fries, onion rings, and delicious quick snacks.",
+        "image": "",
+        "thumbnail": "",
+        "isActive": true,
+        "createdAt": "2026-07-26T02:31:48.903Z",
+        "updatedAt": "2026-07-26T02:52:32.036Z"
+      },
+      "items": [
+        {
+          "entity": {
+            "id": "ent_prod_6zxlur1h5",
+            "order": 1,
+            "name": "Coke",
+            "label": "Coke",
+            "description": "",
+            "image": "coke",
+            "thumbnail": "coke",
+            "isActive": true,
+            "createdAt": "2026-07-20T12:51:57.093Z",
+            "updatedAt": "2026-07-26T02:52:32.036Z",
+            "tag": "ad3",
+            "price": 2.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_e4qq87t41",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {
+                "opt_a94ksc16z": 0,
+                "opt_1pbvw8xvt": 0.5,
+                "opt_w8erpvxzl": 0.75
+              }
+            }
+          ],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_xzwgas1t4",
+            "order": 1,
+            "name": "Fanta",
+            "label": "Fanta",
+            "description": "",
+            "image": "fanta",
+            "thumbnail": "fanta",
+            "isActive": true,
+            "createdAt": "2026-07-20T12:53:29.453Z",
+            "updatedAt": "2026-07-26T02:52:32.036Z",
+            "tag": "",
+            "price": 3.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_e4qq87t41",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {
+                "opt_a94ksc16z": 0,
+                "opt_1pbvw8xvt": 0.5,
+                "opt_w8erpvxzl": 0.75
+              }
+            }
+          ],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_v70dk2owi",
+            "order": 1,
+            "name": "Lemonade",
+            "label": "Lemonade",
+            "description": "",
+            "image": "lemonade",
+            "thumbnail": "lemonade",
+            "isActive": true,
+            "createdAt": "2026-07-20T12:54:09.291Z",
+            "updatedAt": "2026-07-26T02:52:32.036Z",
+            "tag": "",
+            "price": 3.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_combo_drinks",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {
+                "opt_drink_coke": 0,
+                "opt_drink_pepsi": 0.25,
+                "opt_drink_fanta": 0.5
+              }
+            }
+          ],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_z9d6n7j7r",
+            "order": 1,
+            "name": "Fanta Grape",
+            "label": "Fanta Grape",
+            "description": "",
+            "image": "fantagrape",
+            "thumbnail": "fantagrape",
+            "isActive": true,
+            "createdAt": "2026-07-26T02:36:55.473Z",
+            "updatedAt": "2026-07-26T02:52:32.036Z",
+            "tag": "",
+            "price": 2.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_e4qq87t41",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {
+                "opt_a94ksc16z": 0,
+                "opt_1pbvw8xvt": 0.25,
+                "opt_w8erpvxzl": 0.5
+              }
+            }
+          ],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_dd5xp060z",
+            "order": 1,
+            "name": "Mountain Dew",
+            "label": "Mountain Dew",
+            "description": "",
+            "image": "mountaindew",
+            "thumbnail": "mountaindew",
+            "isActive": true,
+            "createdAt": "2026-07-26T02:37:26.096Z",
+            "updatedAt": "2026-07-26T02:52:32.036Z",
+            "tag": "",
+            "price": 2.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_e4qq87t41",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {
+                "opt_a94ksc16z": 0,
+                "opt_1pbvw8xvt": 0.25,
+                "opt_w8erpvxzl": 0.5
+              }
+            }
+          ],
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "icon": "chicken",
+      "entity": {
+        "id": "cat_ent_hbb2tem4h",
+        "tag": "chicken",
+        "order": 1,
+        "name": "Chicken",
+        "description": "",
+        "image": "",
+        "thumbnail": "",
+        "isActive": true,
+        "createdAt": "2026-07-26T02:47:00.317Z",
+        "updatedAt": "2026-07-26T02:52:32.036Z"
+      },
+      "items": [
+        {
+          "entity": {
+            "id": "ent_prod_mttlt936f",
+            "order": 1,
+            "name": "Chicken Sandwich",
+            "label": "Chicken Sandwich",
+            "description": "",
+            "image": "burger3",
+            "thumbnail": "burgertb3",
+            "isActive": true,
+            "createdAt": "2026-07-26T02:50:28.859Z",
+            "updatedAt": "2026-07-26T02:52:32.036Z",
+            "tag": "",
+            "price": 4.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_burger_sizes",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_vegetables_checklist",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_combo_drinks",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {}
+            }
+          ],
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "icon": "fish",
+      "entity": {
+        "id": "cat_ent_8a0lxmq2z",
+        "tag": "fish",
+        "order": 1,
+        "name": "Fish",
+        "description": "",
+        "image": "",
+        "thumbnail": "",
+        "isActive": true,
+        "createdAt": "2026-07-26T02:47:34.392Z",
+        "updatedAt": "2026-07-26T02:52:32.036Z"
+      },
+      "items": [
+        {
+          "entity": {
+            "id": "ent_prod_g438c6ivj",
+            "order": 1,
+            "name": "Fish Sandwich",
+            "label": "Fish Sandwich",
+            "description": "",
+            "image": "burger4",
+            "thumbnail": "burgertb4",
+            "isActive": true,
+            "createdAt": "2026-07-26T02:49:25.868Z",
+            "updatedAt": "2026-07-26T02:52:32.036Z",
+            "tag": "",
+            "price": 3.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_burger_sizes",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_combo_drinks",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_condiments_checklist",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            }
+          ],
+          "isDefault": false
+        }
+      ]
+    }
+  ],
+  "assets": [
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/c00001.svg",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/c00002.svg",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/logorect.svg",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/logosquare.svg",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/i1.svg",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/i2.svg",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/i3.svg",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/i4.svg",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/i5.svg",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/combos.svg",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/burger.svg",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/fish.svg",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1001.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1002.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1003.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1004.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1005.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1006.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1007.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1008.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1009.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p10010.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p10011.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p10012.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p10013.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1001tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1002tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1003tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1004tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1005tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1006tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1007tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1008tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p1009tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p10010tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p10011tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p10012tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p10013tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2001.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2002.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2003.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2004.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2005.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2006.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2007.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2008.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2001tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2002tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2003tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2004tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2005tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2006tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2007tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p2008tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p3001.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p3002.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p3003.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p3004.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p3005.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p3006.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p3007.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p3001tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p3002tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p3003tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p3004tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p3005tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p3006tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p3007tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p4001.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p4002.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p4003.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p4004.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p4005.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p4001tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p4002tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p4003tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p4004tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p4005tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p5001.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p5002.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p5003.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p5004.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p5005.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p5006.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p5001tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p5002tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p5003tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p5004tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p5005tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/p5006tb.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/side1.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/side2.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/side3.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/side4.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/coke.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/cokezero.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/fanta.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/fantagrape.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/lemonade.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/mountaindew.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/combo1.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/combo2.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/combo3.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/combo4.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/combo5.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/combotb1.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/combotb2.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/combotb3.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/combotb4.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/combotb5.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/burger1.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/burger2.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/burger3.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/burger4.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/burger5.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/burgertb1.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/burgertb2.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/burgertb3.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/burgertb4.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/burgertb5.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/salt.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/pepper.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/blackpepper.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/paprika.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/beef.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/chicken.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/pork.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/turkey.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/salami.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/ham.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/pepperoni.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/bacon.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/broccoli.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/pickles.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/lettuce.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/tomato.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/ketchup.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/mayo.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/mustard.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/chipotlemayo.png"
+  ]
+}
