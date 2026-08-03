@@ -8,7 +8,9 @@
   ],
   "kioskMetadata": {
     "kioskId": "kiosk101",
-    "locationId": "location101"
+    "locationId": "location101",
+    "adFile": "kiosk_ads",
+    "adArtboardName": "lagrekkaad"
   },
   "colors": {
     "primaryColor": "#37b1e1",
@@ -1517,8 +1519,8 @@
   "assets": [
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/c00001.svg",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/c00002.svg",
-    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/logorect.svg",
-    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/logosquare.svg",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/lagrekkarect.svg",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/lagrekkasqr.svg",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/i1.svg",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/i2.svg",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/i3.svg",
@@ -1655,6 +1657,7 @@
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/ketchup.png",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/mayo.png",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/mustard.png",
-    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/chipotlemayo.png"
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/chipotlemayo.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/kiosk_ads.riv"
   ]
 }
