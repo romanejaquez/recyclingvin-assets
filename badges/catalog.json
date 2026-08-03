@@ -8,7 +8,9 @@
   ],
   "kioskMetadata": {
     "kioskId": "kiosk101",
-    "locationId": "location101"
+    "locationId": "location101",
+    "adFile": "kiosk_ads",
+    "adArtboardName": "foodiesad"
   },
   "colors": {
     "primaryColor": "#ff5638",
@@ -592,7 +594,7 @@
             "isActive": true,
             "createdAt": "2026-07-26T02:43:17.723Z",
             "updatedAt": "2026-07-26T02:52:32.036Z",
-            "tag": "",
+            "tag": "ad2",
             "price": 12.99,
             "nutritionalFacts": {
               "calories": 0,
@@ -661,7 +663,7 @@
             "isActive": true,
             "createdAt": "2026-07-20T12:51:57.093Z",
             "updatedAt": "2026-07-26T02:52:32.036Z",
-            "tag": "",
+            "tag": "ad3",
             "price": 2.99,
             "nutritionalFacts": {
               "calories": 0,
@@ -842,7 +844,7 @@
       ]
     },
     {
-      "icon": "chickenmenu",
+      "icon": "chicken",
       "entity": {
         "id": "cat_ent_hbb2tem4h",
         "tag": "chicken",
@@ -868,7 +870,7 @@
             "isActive": true,
             "createdAt": "2026-07-26T02:50:28.859Z",
             "updatedAt": "2026-07-26T02:52:32.036Z",
-            "tag": "ad2",
+            "tag": "",
             "price": 4.99,
             "nutritionalFacts": {
               "calories": 0,
@@ -931,7 +933,7 @@
             "isActive": true,
             "createdAt": "2026-07-26T02:49:25.868Z",
             "updatedAt": "2026-07-26T02:52:32.036Z",
-            "tag": "ad3",
+            "tag": "",
             "price": 3.99,
             "nutritionalFacts": {
               "calories": 0,
@@ -978,7 +980,6 @@
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/i3.svg",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/i4.svg",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/i5.svg",
-    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/chickenmenu.svg",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/combos.svg",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/burger.svg",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/fish.svg",
@@ -1095,6 +1096,7 @@
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/blackpepper.png",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/paprika.png",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/beef.png",
+    "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/chicken.svg",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/chicken.png",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/pork.png",
     "https://raw.githubusercontent.com/romanejaquez/recyclingvin-assets/refs/heads/main/badges/turkey.png",
