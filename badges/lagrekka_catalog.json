@@ -1,0 +1,1517 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-07-26T01:04:29.023Z",
+  "tippingPercentages": [
+    10,
+    15,
+    20
+  ],
+  "kioskMetadata": {
+    "kioskId": "kiosk101",
+    "locationId": "location101"
+  },
+  "colors": {
+    "primaryColor": "#37b1e1",
+    "secondaryColor": "#0A5674",
+    "primaryBackgroundColor": "#FFFFFF",
+    "unselectedNavColor": "#707070",
+    "primaryNavBackgroundColor": "#E6E6E6",
+    "primaryButtonLabelColor": "#FFFFFF",
+    "primaryTextColor": "#000000"
+  },
+  "enableDiningOptions": true,
+  "taxPercentage": 0.6,
+  "businessProfile": {
+    "name": "La Grekka",
+    "description": "Cafe Art & Lounge",
+    "logo": {
+      "square": "lagrekkasqr",
+      "rect": "lagrekkarect"
+    },
+    "address": {
+      "street": "282 Merrimack St",
+      "city": "Lawrence",
+      "state": "Massachusetts",
+      "zip": "01843",
+      "country": "United States"
+    },
+    "hoursType": "custom",
+    "hoursOfOperation": {
+      "days": [
+        {
+          "day": "Monday",
+          "open": "2026-01-01T07:00:00Z",
+          "close": "2026-01-01T16:00:00Z"
+        },
+        {
+          "day": "Tuesday",
+          "open": "2026-01-01T07:00:00Z",
+          "close": "2026-01-01T16:00:00Z"
+        },
+        {
+          "day": "Wednesday",
+          "open": "2026-01-01T07:00:00Z",
+          "close": "2026-01-01T16:00:00Z"
+        },
+        {
+          "day": "Thursday",
+          "open": "2026-01-01T07:00:00Z",
+          "close": "2026-01-01T16:00:00Z"
+        },
+        {
+          "day": "Friday",
+          "open": "2026-01-01T07:00:00Z",
+          "close": "2026-01-01T16:00:00Z"
+        },
+        {
+          "day": "Saturday",
+          "open": "2026-01-01T07:00:00Z",
+          "close": "2026-01-01T16:00:00Z"
+        },
+        {
+          "day": "Sunday",
+          "open": "2026-01-01T08:00:00Z",
+          "close": "2026-01-01T16:00:00Z"
+        }
+      ]
+    }
+  },
+  "ingredients": {
+    "ing_pepper": {
+      "id": "ing_pepper",
+      "name": "Pepper",
+      "description": "pepper shaker addition",
+      "imageUrl": "pepper",
+      "nutritionalFacts": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "satFat": 0,
+        "description": "Pepper addition.",
+        "allergens": ""
+      }
+    },
+    "ing_ketchup": {
+      "id": "ing_ketchup",
+      "name": "Ketchup",
+      "description": "ketchup condiment",
+      "imageUrl": "ketchup",
+      "nutritionalFacts": {
+        "calories": 45,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 4,
+        "satFat": 0,
+        "description": "Ketchup addition.",
+        "allergens": ""
+      }
+    },
+    "ing_whipped_cream": {
+      "id": "ing_whipped_cream",
+      "name": "Whipped Cream",
+      "description": "sweet whipped cream",
+      "imageUrl": "cust3",
+      "nutritionalFacts": {
+        "calories": 80,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 8,
+        "satFat": 3,
+        "description": "Whipped Cream addition.",
+        "allergens": "Milk"
+      }
+    },
+    "ing_croissant": {
+      "id": "ing_croissant",
+      "name": "Croissant",
+      "description": "flaky butter bread option",
+      "imageUrl": "breadtype1",
+      "nutritionalFacts": {
+        "calories": 240,
+        "protein": 5,
+        "carbs": 28,
+        "fat": 12,
+        "satFat": 4.8,
+        "description": "Croissant bread description.",
+        "allergens": "Wheat, Milk"
+      }
+    },
+    "ing_chips": {
+      "id": "ing_chips",
+      "name": "Potato Chips",
+      "description": "classic sea salted potato chips",
+      "imageUrl": "side3",
+      "nutritionalFacts": {
+        "calories": 150,
+        "protein": 2,
+        "carbs": 18,
+        "fat": 8,
+        "satFat": 3.2,
+        "description": "Chips side description.",
+        "allergens": ""
+      }
+    },
+    "ing_jpgin4n9i": {
+      "name": "Yellow Mustard",
+      "description": "Yellow Mustard",
+      "image": "",
+      "nutritionalFacts": {
+        "calories": 45,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "satFat": 0,
+        "description": "Yellow Mustard nutrition details.",
+        "allergens": ""
+      },
+      "id": "ing_jpgin4n9i"
+    },
+    "ing_5grpl3qx0": {
+      "name": "Lettuce",
+      "description": "Lettuce",
+      "image": "",
+      "nutritionalFacts": {
+        "calories": 5,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "satFat": 0,
+        "description": "Lettuce nutrition details.",
+        "allergens": ""
+      },
+      "id": "ing_5grpl3qx0"
+    },
+    "ing_mw4n52unc": {
+      "name": "Green Peppers",
+      "description": "Green Peppers",
+      "image": "",
+      "nutritionalFacts": {
+        "calories": 5,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "satFat": 0,
+        "description": "Green Peppers nutrition details.",
+        "allergens": ""
+      },
+      "id": "ing_mw4n52unc"
+    },
+    "ing_f010ul8ls": {
+      "name": "Tomatoes",
+      "description": "Tomatoes",
+      "image": "",
+      "nutritionalFacts": {
+        "calories": 5,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "satFat": 0,
+        "description": "Tomatoes nutrition details.",
+        "allergens": ""
+      },
+      "id": "ing_f010ul8ls"
+    },
+    "ing_7dt46kj62": {
+      "name": "Black Olives",
+      "description": "Black Olives",
+      "image": "",
+      "nutritionalFacts": {
+        "calories": 5,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "satFat": 0,
+        "description": "Black Olives nutrition details.",
+        "allergens": ""
+      },
+      "id": "ing_7dt46kj62"
+    },
+    "ing_lwgh9u0jz": {
+      "name": "Green Tomato",
+      "description": "",
+      "image": "tomato",
+      "nutritionalFacts": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "satFat": 0,
+        "description": "Green Tomato nutrition details.",
+        "allergens": ""
+      },
+      "id": "ing_lwgh9u0jz"
+    },
+    "ing_kzj5k1x0o": {
+      "name": "Onions",
+      "description": "Onions",
+      "image": "onion",
+      "nutritionalFacts": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "satFat": 0,
+        "description": "Onions nutrition details.",
+        "allergens": ""
+      },
+      "id": "ing_kzj5k1x0o"
+    }
+  },
+  "modifierGroups": {
+    "mg_coffee_sizes": {
+      "id": "mg_coffee_sizes",
+      "name": "Size Selector",
+      "description": "",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_size_s",
+          "name": "Small",
+          "label": "Small",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_size_m",
+          "name": "Medium",
+          "label": "Medium",
+          "priceAdjustment": 0.5,
+          "isDefault": false
+        },
+        {
+          "id": "opt_size_l",
+          "name": "Large",
+          "label": "Large",
+          "priceAdjustment": 1,
+          "isDefault": false
+        }
+      ],
+      "label": "Size"
+    },
+    "mg_sweeteners_stepper": {
+      "id": "mg_sweeteners_stepper",
+      "name": "Sweeteners",
+      "description": "",
+      "type": "quantity",
+      "displayLocation": "customizer",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 10,
+      "options": [
+        {
+          "id": "opt_sugar_spoon",
+          "name": "Sugar Spoon",
+          "label": "Sugar Spoon",
+          "priceAdjustment": 0,
+          "isDefault": false,
+          "minVal": 1,
+          "maxVal": 10,
+          "defaultVal": 1,
+          "quantity": 1
+        }
+      ],
+      "label": "Sweeteners"
+    },
+    "mg_breads_menu": {
+      "id": "mg_breads_menu",
+      "name": "Bread Type",
+      "description": "",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_bread_croissant",
+          "name": "Croissant Bun",
+          "label": "Croissant Bun",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "linkedIngredientId": "ing_croissant"
+        },
+        {
+          "id": "opt_bread_sourdough",
+          "name": "Sourdough Slice",
+          "label": "Sourdough Slice",
+          "priceAdjustment": 0,
+          "isDefault": false,
+          "linkedIngredientId": "ing_sourdough"
+        }
+      ],
+      "label": "Bread Type"
+    },
+    "mg_combo_sides": {
+      "id": "mg_combo_sides",
+      "name": "Select Side",
+      "description": "Add optional side upgrade",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_side_chips",
+          "name": "Chips",
+          "label": "Chips",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "linkedProductId": "ent_prod_rs2s4o87l"
+        },
+        {
+          "id": "opt_side_fruit",
+          "name": "Fruit Bowl",
+          "label": "Fruit Bowl",
+          "priceAdjustment": 1,
+          "isDefault": false,
+          "linkedIngredientId": "ing_fruit",
+          "linkedProductId": "ent_prod_iocvs7qdw"
+        },
+        {
+          "id": "opt_ugmjytxyy",
+          "name": "Sourdough Bread",
+          "label": "Sourdough Bread",
+          "priceAdjustment": 2,
+          "isDefault": false,
+          "linkedProductId": "ent_prod_chruzm1kq"
+        }
+      ],
+      "label": "Select Side"
+    },
+    "mg_nspioxeov": {
+      "name": "Amount Options",
+      "description": "",
+      "type": "singleSelect",
+      "displayLocation": "customizer",
+      "isRequired": true,
+      "minSelections": 0,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_wrt5ey0kw",
+          "name": "None",
+          "label": "None",
+          "priceAdjustment": 0,
+          "isDefault": false
+        },
+        {
+          "id": "opt_ezsrk4xwj",
+          "name": "Light",
+          "label": "Light",
+          "priceAdjustment": 0,
+          "isDefault": false
+        },
+        {
+          "id": "opt_0vsqadx0y",
+          "name": "Normal",
+          "label": "Normal",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_qjo0sx5uq",
+          "name": "Extra",
+          "label": "Extra",
+          "priceAdjustment": 25,
+          "isDefault": false
+        }
+      ],
+      "id": "mg_nspioxeov",
+      "label": "Amount Options"
+    },
+    "mg_yu898jrbc": {
+      "name": "Burger Sizes",
+      "description": "",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_6ebscgq12",
+          "name": "Small",
+          "label": "Small",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_evnuhvf4d",
+          "name": "Medium",
+          "label": "Medium",
+          "priceAdjustment": 0.5,
+          "isDefault": false
+        },
+        {
+          "id": "opt_wc5jnduux",
+          "name": "Large",
+          "label": "Large",
+          "priceAdjustment": 1.5,
+          "isDefault": false
+        }
+      ],
+      "id": "mg_yu898jrbc",
+      "label": "Burger Sizes"
+    },
+    "mg_zc5tnauhx": {
+      "name": "Condiments",
+      "description": "",
+      "type": "toggleList",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 10,
+      "options": [
+        {
+          "id": "opt_h5hftyfpz",
+          "name": "Ketchup",
+          "label": "Ketchup",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "linkedIngredientId": "ing_ketchup",
+          "nestedGroupId": "mg_nspioxeov"
+        },
+        {
+          "id": "opt_e5idwo5lt",
+          "name": "Mustard",
+          "label": "Mustard",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "linkedIngredientId": "ing_jpgin4n9i",
+          "nestedGroupId": "mg_nspioxeov"
+        }
+      ],
+      "id": "mg_zc5tnauhx",
+      "label": "Condiments"
+    },
+    "mg_hu6n89uem": {
+      "name": "Green Tomato Choices",
+      "label": "Green Tomato Choices",
+      "description": "",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_geak24weu",
+          "name": "Poco",
+          "label": "Poco",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_wnwfoahp5",
+          "name": "Mucho",
+          "label": "Mucho",
+          "priceAdjustment": 0,
+          "isDefault": false
+        },
+        {
+          "id": "opt_9st46xqlv",
+          "name": "Extra",
+          "label": "Extra",
+          "priceAdjustment": 0,
+          "isDefault": false
+        }
+      ],
+      "id": "mg_hu6n89uem"
+    },
+    "mg_rh1k8tw4c": {
+      "name": "Iced Caramel Latte Ingredients",
+      "label": "Ingredients",
+      "description": "",
+      "type": "toggleList",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 10,
+      "options": [
+        {
+          "id": "opt_2pc0814fm",
+          "name": "Caramel",
+          "label": "Caramel",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "nestedGroupId": "mg_6t9d41dmm"
+        },
+        {
+          "id": "opt_2t6kk3pnv",
+          "name": "Milk",
+          "label": "Milk",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "nestedGroupId": "mg_8veyhmej5"
+        }
+      ],
+      "id": "mg_rh1k8tw4c"
+    },
+    "mg_8veyhmej5": {
+      "name": "Milk Options",
+      "label": "Milk Options",
+      "description": "",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_xerlf121x",
+          "name": "Whole Milk",
+          "label": "Whole Milk",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_tvxb0icgr",
+          "name": "Coffee Milk",
+          "label": "Coffee Milk",
+          "priceAdjustment": 0,
+          "isDefault": false
+        },
+        {
+          "id": "opt_eps4ewn7i",
+          "name": "Almond Milk",
+          "label": "Almond Milk",
+          "priceAdjustment": 0,
+          "isDefault": false
+        }
+      ],
+      "id": "mg_8veyhmej5"
+    },
+    "mg_6t9d41dmm": {
+      "name": "Caramel Amounts",
+      "label": "Caramel Amounts",
+      "description": "",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_r7xe0k04h",
+          "name": "Light",
+          "label": "Light",
+          "priceAdjustment": 0,
+          "isDefault": false
+        },
+        {
+          "id": "opt_ivm86oynu",
+          "name": "Normal",
+          "label": "Normal",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_k85kq8tj6",
+          "name": "Extra",
+          "label": "Extra",
+          "priceAdjustment": 0.25,
+          "isDefault": false
+        }
+      ],
+      "id": "mg_6t9d41dmm"
+    },
+    "mg_j7xv4nbje": {
+      "name": "Mocha Amounts",
+      "label": "Mocha",
+      "description": "",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_n8knp7rdw",
+          "name": "Light",
+          "label": "Light",
+          "priceAdjustment": 0,
+          "isDefault": false
+        },
+        {
+          "id": "opt_8ctllbpid",
+          "name": "Normal",
+          "label": "Normal",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_vbqtoo6x1",
+          "name": "Extra",
+          "label": "Extra",
+          "priceAdjustment": 0.25,
+          "isDefault": false
+        }
+      ],
+      "id": "mg_j7xv4nbje"
+    },
+    "mg_mftxtifmz": {
+      "name": "Iced Mocha Latte Ingredients",
+      "label": "Ingredients",
+      "description": "",
+      "type": "toggleList",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 10,
+      "options": [
+        {
+          "id": "opt_grtxr0gk9",
+          "name": "Mocha",
+          "label": "Mocha",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "nestedGroupId": "mg_j7xv4nbje"
+        },
+        {
+          "id": "opt_fibl7lzsh",
+          "name": "Caramel",
+          "label": "Caramel",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "nestedGroupId": "mg_6t9d41dmm"
+        },
+        {
+          "id": "opt_izv9o64ng",
+          "name": "Milk",
+          "label": "Milk",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "nestedGroupId": "mg_8veyhmej5"
+        }
+      ],
+      "id": "mg_mftxtifmz"
+    },
+    "mg_j06v3wic9": {
+      "name": "Omelet Ingredients",
+      "label": "Ingredients",
+      "description": "",
+      "type": "toggleList",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 10,
+      "options": [
+        {
+          "id": "opt_jdgjfoxww",
+          "name": "Onion",
+          "label": "Onion",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_31x6flxqp",
+          "name": "Pepper",
+          "label": "Pepper",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_9ss6a2bkx",
+          "name": "Tomato",
+          "label": "Tomato",
+          "priceAdjustment": 0,
+          "isDefault": true
+        }
+      ],
+      "id": "mg_j06v3wic9"
+    },
+    "mg_navhrn1wd": {
+      "name": "Eggs",
+      "label": "Eggs",
+      "description": "",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_qo5hc6z3t",
+          "name": "Egg Whites Only",
+          "label": "Egg Whites Only",
+          "priceAdjustment": 0,
+          "isDefault": false
+        },
+        {
+          "id": "opt_670nrs6bl",
+          "name": "Whole Eggs",
+          "label": "Whole Eggs",
+          "priceAdjustment": 0,
+          "isDefault": true
+        }
+      ],
+      "id": "mg_navhrn1wd"
+    },
+    "mg_ksgm3axw6": {
+      "name": "Home Fries",
+      "label": "Add-ons",
+      "description": "",
+      "type": "toggleList",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_cali6bbkj",
+          "name": "Home Fries",
+          "label": "Home Fries",
+          "priceAdjustment": 0,
+          "isDefault": true
+        }
+      ],
+      "id": "mg_ksgm3axw6"
+    },
+    "mg_k1psd54bv": {
+      "name": "Bacon Amounts",
+      "label": "Bacon Amounts",
+      "description": "",
+      "type": "singleSelect",
+      "displayLocation": "customizer",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_evg0z6rqu",
+          "name": "Light",
+          "label": "Light",
+          "priceAdjustment": 0,
+          "isDefault": false
+        },
+        {
+          "id": "opt_g54ky0rur",
+          "name": "Normal",
+          "label": "Normal",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_jlzacqxlf",
+          "name": "Extra",
+          "label": "Extra",
+          "priceAdjustment": 0.5,
+          "isDefault": false
+        }
+      ],
+      "id": "mg_k1psd54bv"
+    },
+    "mg_y81ehrtt7": {
+      "name": "Bacon Omelete Ingredients",
+      "label": "Ingredients",
+      "description": "",
+      "type": "toggleList",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 10,
+      "options": [
+        {
+          "id": "opt_zsjn8vzh5",
+          "name": "Onion",
+          "label": "Onion",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_dc5kowm5d",
+          "name": "Peppers",
+          "label": "Peppers",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_5jiuy75a4",
+          "name": "Tomato",
+          "label": "Tomato",
+          "priceAdjustment": 0,
+          "isDefault": true
+        }
+      ],
+      "id": "mg_y81ehrtt7"
+    },
+    "mg_sww56te87": {
+      "name": "London Breakfast Ingredients",
+      "label": "Ingredients",
+      "description": "",
+      "type": "toggleList",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 10,
+      "options": [
+        {
+          "id": "opt_11bepoyn4",
+          "name": "Ham",
+          "label": "Ham",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_ot6z0dgyc",
+          "name": "Sausages",
+          "label": "Sausages",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "nestedGroupId": "mg_yvkgr2rbb"
+        },
+        {
+          "id": "opt_gapd7d93w",
+          "name": "Seasonal Jelly",
+          "label": "Seasonal Jelly",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_pojb9wfm1",
+          "name": "Toast",
+          "label": "Toast",
+          "priceAdjustment": 0,
+          "isDefault": true,
+          "nestedGroupId": "mg_t6rgysw8d"
+        },
+        {
+          "id": "opt_95nmfjoym",
+          "name": "Butter",
+          "label": "Butter",
+          "priceAdjustment": 0,
+          "isDefault": true
+        }
+      ],
+      "id": "mg_sww56te87"
+    },
+    "mg_yvkgr2rbb": {
+      "name": "Sausages Amount",
+      "label": "Sausages",
+      "description": "",
+      "type": "quantity",
+      "displayLocation": "customizer",
+      "isRequired": false,
+      "minSelections": 1,
+      "maxSelections": 3,
+      "options": [
+        {
+          "id": "opt_cwa21nsza",
+          "name": "Sausages",
+          "label": "Sausages",
+          "priceAdjustment": 0.5,
+          "isDefault": true,
+          "minVal": 1,
+          "maxVal": 3
+        }
+      ],
+      "id": "mg_yvkgr2rbb"
+    },
+    "mg_t6rgysw8d": {
+      "name": "Toast Types",
+      "label": "Toast",
+      "description": "",
+      "type": "singleSelect",
+      "displayLocation": "primary",
+      "isRequired": false,
+      "minSelections": 0,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_khmt9tmn8",
+          "name": "White",
+          "label": "White",
+          "priceAdjustment": 0,
+          "isDefault": true
+        },
+        {
+          "id": "opt_uz7he37a8",
+          "name": "Wheat",
+          "label": "Wheat",
+          "priceAdjustment": 0,
+          "isDefault": false
+        },
+        {
+          "id": "opt_zve2sv2m2",
+          "name": "Sourdough",
+          "label": "Sourdough",
+          "priceAdjustment": 0,
+          "isDefault": false
+        }
+      ],
+      "id": "mg_t6rgysw8d"
+    }
+  },
+  "data": [
+    {
+      "icon": "i1",
+      "entity": {
+        "id": "cat_ent_1",
+        "tag": "coffees",
+        "order": 1,
+        "name": "Specialty Coffees",
+        "description": "Specialty Coffees",
+        "image": "",
+        "thumbnail": "",
+        "isActive": true,
+        "createdAt": "2026-07-25T07:59:00.057Z",
+        "updatedAt": "2026-07-26T01:04:29.023Z"
+      },
+      "items": [
+        {
+          "entity": {
+            "id": "ent_prod_jeixt5gv1",
+            "order": 1,
+            "name": "Iced Caramel Latte",
+            "label": "Iced Caramel Latte",
+            "description": "Iced Caramel Latte",
+            "image": "p1001",
+            "thumbnail": "p1001tb",
+            "isActive": true,
+            "createdAt": "2026-07-26T00:15:19.230Z",
+            "updatedAt": "2026-07-26T01:04:29.023Z",
+            "tag": "",
+            "price": 7.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_coffee_sizes",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_rh1k8tw4c",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            }
+          ],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_fi0ysgizd",
+            "order": 1,
+            "name": "Iced Latte",
+            "label": "Iced Latte",
+            "description": "Iced Latte",
+            "image": "p1002",
+            "thumbnail": "p1002tb",
+            "isActive": true,
+            "createdAt": "2026-07-26T00:22:31.598Z",
+            "updatedAt": "2026-07-26T01:04:29.023Z",
+            "tag": "",
+            "price": 7.49,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_coffee_sizes",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_rh1k8tw4c",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            }
+          ],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_bl82v3rxk",
+            "order": 1,
+            "name": "La Grekka Bombon Hot Latte",
+            "label": "La Grekka Bombon Hot Latte",
+            "description": "Hot Bombon latte",
+            "image": "p1003",
+            "thumbnail": "p1003tb",
+            "isActive": true,
+            "createdAt": "2026-07-26T00:25:32.443Z",
+            "updatedAt": "2026-07-26T01:04:29.023Z",
+            "tag": "",
+            "price": 7.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_coffee_sizes",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_8veyhmej5",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_6t9d41dmm",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            }
+          ],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_fo3srmj3y",
+            "order": 1,
+            "name": "Iced Mocha Latte",
+            "label": "Iced Mocha Latte",
+            "description": "Iced Mocha Latte",
+            "image": "p1004",
+            "thumbnail": "p1004tb",
+            "isActive": true,
+            "createdAt": "2026-07-26T00:26:47.467Z",
+            "updatedAt": "2026-07-26T01:04:29.023Z",
+            "tag": "",
+            "price": 7.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_coffee_sizes",
+              "displayLocation": "primary",
+              "isRequired": true,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_mftxtifmz",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            }
+          ],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_e6fvp6y83",
+            "order": 1,
+            "name": "Hot Mocha Latte",
+            "label": "Hot Mocha Latte",
+            "description": "",
+            "image": "p1005",
+            "thumbnail": "p1005tb",
+            "isActive": true,
+            "createdAt": "2026-07-26T00:30:33.691Z",
+            "updatedAt": "2026-07-26T01:04:29.023Z",
+            "tag": "",
+            "price": 6.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_coffee_sizes",
+              "displayLocation": "primary",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_mftxtifmz",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            }
+          ],
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "icon": "i3",
+      "entity": {
+        "id": "cat_ent_zxzt7zctw",
+        "tag": "omellets",
+        "order": 2,
+        "name": "Omelettes & Eggs",
+        "description": "",
+        "image": "",
+        "thumbnail": "",
+        "isActive": true,
+        "createdAt": "2026-07-26T00:12:20.164Z",
+        "updatedAt": "2026-07-26T01:04:29.023Z"
+      },
+      "items": [
+        {
+          "entity": {
+            "id": "ent_prod_qvwcnu5zp",
+            "order": 1,
+            "name": "Veggie Omelette",
+            "label": "Veggie Omelette",
+            "description": "With Home Fries",
+            "image": "p3001",
+            "thumbnail": "p3001tb",
+            "isActive": true,
+            "createdAt": "2026-07-26T00:36:19.818Z",
+            "updatedAt": "2026-07-26T01:04:29.023Z",
+            "tag": "",
+            "price": 14.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_j06v3wic9",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_navhrn1wd",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_ksgm3axw6",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            }
+          ],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_bx64129lw",
+            "order": 1,
+            "name": "Egg and Cheese Omelette",
+            "label": "Egg and Cheese Omelette",
+            "description": "With Home Fries",
+            "image": "p3002",
+            "thumbnail": "p3002tb",
+            "isActive": true,
+            "createdAt": "2026-07-26T00:51:21.959Z",
+            "updatedAt": "2026-07-26T01:04:29.023Z",
+            "tag": "",
+            "price": 12.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_j06v3wic9",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_navhrn1wd",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_ksgm3axw6",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            }
+          ],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_l8lchwgf0",
+            "order": 1,
+            "name": "Scrambled Eggs, Bacon",
+            "label": "Scrambled Eggs, Bacon",
+            "description": "With Home Fries",
+            "image": "p3003",
+            "thumbnail": "p3003tb",
+            "isActive": true,
+            "createdAt": "2026-07-26T00:52:20.185Z",
+            "updatedAt": "2026-07-26T01:04:29.023Z",
+            "tag": "",
+            "price": 14.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_k1psd54bv",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_y81ehrtt7",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            }
+          ],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_htm30osqx",
+            "order": 1,
+            "name": "London Breakfast",
+            "label": "London Breakfast",
+            "description": "Two fried eggs, bacon, high quality ham, sausages, seasonal jelly, toast and butter.",
+            "image": "p3004",
+            "thumbnail": "p3004tb",
+            "isActive": true,
+            "createdAt": "2026-07-26T00:55:54.037Z",
+            "updatedAt": "2026-07-26T01:04:29.023Z",
+            "tag": "",
+            "price": 16.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [
+            {
+              "groupId": "mg_navhrn1wd",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            },
+            {
+              "groupId": "mg_sww56te87",
+              "displayLocation": "customizer",
+              "isRequired": false,
+              "priceOverrides": {}
+            }
+          ],
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "icon": "i2",
+      "entity": {
+        "id": "cat_ent_1flqs5are",
+        "tag": "pastries",
+        "order": 3,
+        "name": "Morning Pastries",
+        "description": "Morning Pastries",
+        "image": "",
+        "thumbnail": "",
+        "isActive": true,
+        "createdAt": "2026-07-26T00:12:43.934Z",
+        "updatedAt": "2026-07-26T01:04:29.023Z"
+      },
+      "items": [
+        {
+          "entity": {
+            "id": "ent_prod_425sllpn3",
+            "order": 1,
+            "name": "Apple Bear Claw",
+            "label": "Apple Bear Claw",
+            "description": "Apple filled pastry",
+            "image": "p2001",
+            "thumbnail": "p2001tb",
+            "isActive": true,
+            "createdAt": "2026-07-26T00:31:57.646Z",
+            "updatedAt": "2026-07-26T01:04:29.023Z",
+            "tag": "",
+            "price": 5.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_ud116176o",
+            "order": 1,
+            "name": "Chocolate Croissant",
+            "label": "Chocolate Croissant",
+            "description": "Chocolate filled croissant",
+            "image": "p2002",
+            "thumbnail": "p2002tb",
+            "isActive": true,
+            "createdAt": "2026-07-26T00:32:59.704Z",
+            "updatedAt": "2026-07-26T01:04:29.023Z",
+            "tag": "",
+            "price": 5.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_gjxex15cv",
+            "order": 1,
+            "name": "Almond Croissant",
+            "label": "Almond Croissant",
+            "description": "Almond filled Croissant",
+            "image": "p2003",
+            "thumbnail": "p2003tb",
+            "isActive": true,
+            "createdAt": "2026-07-26T00:33:25.399Z",
+            "updatedAt": "2026-07-26T01:04:29.023Z",
+            "tag": "",
+            "price": 5.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_uus4p7vt7",
+            "order": 1,
+            "name": "Muffins",
+            "label": "Muffins",
+            "description": "Assorted muffins",
+            "image": "p2004",
+            "thumbnail": "p2004tb",
+            "isActive": true,
+            "createdAt": "2026-07-26T00:34:09.914Z",
+            "updatedAt": "2026-07-26T01:04:29.023Z",
+            "tag": "",
+            "price": 3.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [],
+          "isDefault": false
+        },
+        {
+          "entity": {
+            "id": "ent_prod_ot7k3j7ku",
+            "order": 1,
+            "name": "Gluten-free Blueberry Muffins",
+            "label": "Gluten-free Blueberry Muffins",
+            "description": "Gluten-free Blueberry Muffins",
+            "image": "p2005",
+            "thumbnail": "p2005tb",
+            "isActive": true,
+            "createdAt": "2026-07-26T00:35:02.420Z",
+            "updatedAt": "2026-07-26T01:04:29.023Z",
+            "tag": "",
+            "price": 5.99,
+            "nutritionalFacts": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "satFat": 0,
+              "description": "",
+              "allergens": ""
+            }
+          },
+          "modifierGroupConfigs": [],
+          "isDefault": false
+        }
+      ]
+    }
+  ]
+}
